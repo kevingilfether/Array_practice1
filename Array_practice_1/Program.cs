@@ -59,18 +59,40 @@ namespace Array_practice_1
 
             //Practicing default values of different data types
 
-            int[] numbers = new int[4];
-            numbers[0] = 43;
-            numbers[1] = 12;
-            Console.WriteLine("Please enter a number");
-            numbers[2] = int.Parse(Console.ReadLine());
-            Console.WriteLine("Please enter a number");
-            numbers[3] = int.Parse(Console.ReadLine());
-            Console.WriteLine(numbers[2]);
+            //int[] numbers = new int[4];
+            //numbers[0] = 43;
+            //numbers[1] = 12;
+            //Console.WriteLine("Please enter a number");
+            //numbers[2] = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Please enter a number");
+            //numbers[3] = int.Parse(Console.ReadLine());
+            //Console.WriteLine(numbers[2]);
 
             //char[] letters = new char [4];
             //letters[0] = 'a';
             //Console.WriteLine(letters[3]);
+
+            //Makes two arrays, name of students and days of the weeks
+
+            string[] daysOfWeek = new string [7];
+            daysOfWeek[0] = "Monday";
+            daysOfWeek[1] = "Tuesday";
+            daysOfWeek[2] = "Wednesday";
+            daysOfWeek[3] = "Thursday";
+            daysOfWeek[4] = "Friday";
+            daysOfWeek[5] = "Saturday";
+            daysOfWeek[6] = "Sunday";
+
+            int[] studentAges = new int[5];
+            studentAges[0] = 26;
+            studentAges[1] = 31;
+            studentAges[2] = 50;
+            studentAges[3] = 45;
+            studentAges[4] = 34;
+
+
+
+
 
         }
     }
