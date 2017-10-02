@@ -23,7 +23,7 @@ namespace Array_practice_1
 
             string[] studentNames = { "Raz", "Monica", "David", "Brian", "Ali" };
 
-            Console.WriteLine();
+            Console.WriteLine(studentNames[3]);
 
         }
     }
