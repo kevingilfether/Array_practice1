@@ -17,7 +17,13 @@ namespace Array_practice_1
             //good practice -- make array name effective to convey info.
             //good practice -- make sure array elements are releated
 
-            int[] favoriteNumbers = { 1, 2, 3, 4, 5, 6 };
+            int[] favoriteNumbers = { 61, 22, 3, 44, 105, 36 };
+
+            // make a string array
+
+            string[] studentNames = { "Raz", "Monica", "David", "Brian", "Ali" };
+
+            Console.WriteLine();
 
         }
     }
