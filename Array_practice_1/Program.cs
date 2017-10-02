@@ -72,6 +72,7 @@ namespace Array_practice_1
             //letters[0] = 'a';
             //Console.WriteLine(letters[3]);
 
+
             //Makes two arrays, name of students and days of the weeks
 
             string[] daysOfWeek = new string [7];
@@ -89,6 +90,8 @@ namespace Array_practice_1
             studentAges[2] = 50;
             studentAges[3] = 45;
             studentAges[4] = 34;
+
+            Console.WriteLine(daysOfWeek.Length);
 
 
 
