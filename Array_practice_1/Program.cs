@@ -57,7 +57,20 @@ namespace Array_practice_1
 
             //Specifies an array with size of 4
 
+            //Practicing default values of different data types
+
             int[] numbers = new int[4];
+            numbers[0] = 43;
+            numbers[1] = 12;
+            Console.WriteLine("Please enter a number");
+            numbers[2] = int.Parse(Console.ReadLine());
+            Console.WriteLine("Please enter a number");
+            numbers[3] = int.Parse(Console.ReadLine());
+            Console.WriteLine(numbers[2]);
+
+            //char[] letters = new char [4];
+            //letters[0] = 'a';
+            //Console.WriteLine(letters[3]);
 
         }
     }
