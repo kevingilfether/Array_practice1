@@ -11,19 +11,53 @@ namespace Array_practice_1
         static void Main(string[] args)
         {
             //declaring a variable
-            int favoriteNumber;
+            //int favoriteNumber;
 
             //to make an array, use the brackets;
             //good practice -- make array name effective to convey info.
             //good practice -- make sure array elements are releated
 
-            int[] favoriteNumbers = { 61, 22, 3, 44, 105, 36 };
+            //int[] favoriteNumbers = { 61, 22, 3, 44, 105, 36 };
 
-            // make a string array
+            //// make a string array
 
-            string[] studentNames = { "Raz", "Monica", "David", "Brian", "Ali" };
+            //string[] studentNames = { "Raz", "Monica", "David", "Brian", "Ali" };
 
-            Console.WriteLine(studentNames[3]);
+            //Console.WriteLine(studentNames[2]);
+
+            // Excercise #1
+
+            // Top 10 vacation spots
+
+            //string[] vacationSpots = { "Cabo San Lucas", "The warehouse from _Big Trouble in Little China_",
+            //    "Peurto Rico", "Quad Cities", "West 65th St.", "RRCS",
+            //    "The Duck Tape Factory", "Pittsburgh", "Toronto", "San Francisco" };
+            //Console.WriteLine(vacationSpots[0] + ", " + vacationSpots[9]);
+
+            //// Prints age of 3 kids I know
+
+            //int[] agesOfKids = { 3, 16, 25 };
+            //Console.WriteLine(agesOfKids[0]);
+            //Console.WriteLine(agesOfKids[1]);
+            //Console.WriteLine(agesOfKids[2]);
+
+            ////Prints GPAs on a 4.00 scale
+
+            //float[] gpas = { 3.4f, 2.0f, 4.3f, 2.5f, 4.7f, 3.67f, 2f, 2.75f, 3.9f };
+            //Console.WriteLine(gpas[1]);
+
+            //// Prints first name of one of a peer
+
+            //string[] studentsAround = { "Faize", "Brad", "Kathleen", "David" };
+            //Console.WriteLine(studentsAround[0]);
+
+
+
+            //How to add elements to an array when we don't know all the elements
+
+            //Specifies an array with size of 4
+
+            int[] numbers = new int[4];
 
         }
     }
