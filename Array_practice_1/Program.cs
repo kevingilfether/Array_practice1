@@ -75,25 +75,56 @@ namespace Array_practice_1
 
             //Makes two arrays, name of students and days of the weeks
 
-            string[] daysOfWeek = new string [7];
-            daysOfWeek[0] = "Monday";
-            daysOfWeek[1] = "Tuesday";
-            daysOfWeek[2] = "Wednesday";
-            daysOfWeek[3] = "Thursday";
-            daysOfWeek[4] = "Friday";
-            daysOfWeek[5] = "Saturday";
-            daysOfWeek[6] = "Sunday";
+            //string[] daysOfWeek = new string [7];
+            //daysOfWeek[0] = "Monday";
+            //daysOfWeek[1] = "Tuesday";
+            //daysOfWeek[2] = "Wednesday";
+            //daysOfWeek[3] = "Thursday";
+            //daysOfWeek[4] = "Friday";
+            //daysOfWeek[5] = "Saturday";
+            //daysOfWeek[6] = "Sunday";
 
-            int[] studentAges = new int[5];
-            studentAges[0] = 26;
-            studentAges[1] = 31;
-            studentAges[2] = 50;
-            studentAges[3] = 45;
-            studentAges[4] = 34;
+            //int[] studentAges = new int[5];
+            //studentAges[0] = 26;
+            //studentAges[1] = 31;
+            //studentAges[2] = 50;
+            //studentAges[3] = 45;
+            //studentAges[4] = 34;
 
-            Console.WriteLine(daysOfWeek.Length);
+            //Console.WriteLine(daysOfWeek.Length);
 
 
+            //Make an array of my last name
+
+            //char[] lastName = new char[9];
+            //lastName[0] = 'G';
+            //lastName[1] = 'i';
+            //lastName[2] = 'l';
+            //lastName[3] = 'f';
+            //lastName[4] = 'e';
+            //lastName[5] = 't';
+            //lastName[6] = 'h';
+            //lastName[7] = 'e';
+            //lastName[8] = 'r';
+            //Console.WriteLine(lastName.Length);
+
+
+            //Prints out second to last string using .Length property
+            //Length of Array - 1 == last item
+            //Length of Array - 2 == second to last item
+            //string[] threeBodyProblem = new string[5];
+            //threeBodyProblem[0] = "Cixin";
+            //threeBodyProblem[1] = "Liu";
+            //threeBodyProblem[2] = "is";
+            //threeBodyProblem[3] = "a";
+            //threeBodyProblem[4] = "genius.";
+            //Console.WriteLine(threeBodyProblem[threeBodyProblem.Length - 2]);
+
+
+            //This is a list of names. I'll print the index of the third one.
+
+            string[] namesList = { "Brad", "Cheria", "Ali", "Ryan" };
+            Console.WriteLine(Array.IndexOf(namesList, "Ali"));
 
 
 
