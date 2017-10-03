@@ -146,14 +146,28 @@ namespace Array_practice_1
             //}
 
             //Setting size of Array with user input
-            Console.WriteLine("Please enter size of an array");
-            int arraySize = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Please enter size of an array");
+            //int arraySize = int.Parse(Console.ReadLine());
 
-            int[] newArray = new int[arraySize];
+            //int[] newArray = new int[arraySize];
 
-            Console.WriteLine("The array is of length " + newArray.Length);
+            //Console.WriteLine("The array is of length " + newArray.Length);
 
             //Console.WriteLine(Array.IndexOf(newArray, newArray.Length));
+
+            //Birth month example
+
+            string[] birthMonths = { "October", "July", "October", "May" };
+
+            //Helper method IndexOf -- Reports index in element in Array
+
+            Console.WriteLine(Array.IndexOf(birthMonths, "October"));
+
+            //LastIndexOf -- same, but last
+
+            Console.WriteLine(Array.LastIndexOf(birthMonths, "October"));
+
+
             
 
 
