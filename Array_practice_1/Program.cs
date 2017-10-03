@@ -157,26 +157,88 @@ namespace Array_practice_1
 
             //Birth month example
 
-            string[] birthMonths = { "October", "July", "October", "May" };
+            //string[] birthMonths = { "October", "July", "October", "May" };
 
-            //Helper method IndexOf -- Reports index in element in Array
+            ////Helper method IndexOf -- Reports index in element in Array
 
-            Console.WriteLine(Array.IndexOf(birthMonths, "October"));
+            //Console.WriteLine(Array.IndexOf(birthMonths, "October"));
 
-            //LastIndexOf -- same, but last
+            ////LastIndexOf -- same, but last
 
-            Console.WriteLine(Array.LastIndexOf(birthMonths, "October"));
+            //Console.WriteLine(Array.LastIndexOf(birthMonths, "October"));
 
             // Index of a string on an array element
 
             //Console.WriteLine(birthMonths[1].IndexOf("u"));
 
-            int[] numbers = { 2, 5, 9, 4, 3, 4, 6, 5 };
-            Console.WriteLine(Array.LastIndexOf(numbers, 4));
+            //int[] numbers = { 2, 5, 9, 4, 3, 4, 6, 5 };
+            //Console.WriteLine(Array.LastIndexOf(numbers, 4));
 
+            //Array.Reverse(numbers);
+            //Console.WriteLine(numbers[0]);
 
+            //Sort Method - Sorts by numerical or alphabetical order
 
+            //Array.Sort(numbers);
+            //Console.WriteLine(numbers[0]);
+            //Console.WriteLine(numbers[numbers.Length - 1]);
+
+            // Declare and initialize a string array of first names.
+            // Choose a name to find and print the IndexOf.
+            string[] firstNames = { "Kevin", "Sweet", "Patrick", "Murderous" };
+
+            Console.WriteLine(Array.IndexOf(firstNames, "Murderous"));
             
+
+            //Create an array of lucky numbers.
+            //Each number should repeat at least once.
+            //Choose a lucky number, find and print the last index of it.
+
+            int[] luckyNumbers = { 4, 7, 3, 3, 7, 4 };
+            Console.WriteLine(Array.LastIndexOf(luckyNumbers, 3));
+
+
+            //Create an array of alphabet characters. 
+            //Print the first index of the array.
+            //Now reverse the array and print the first index.
+
+            char[] someLetters = { 'a', 't', 'r', 'g', 'm', 'p' };
+            Console.WriteLine(someLetters[0]);
+            Array.Reverse(someLetters);
+            Console.WriteLine(someLetters[0]);
+
+            //Create an array of student names in random order. 
+            //Order the students’ names using the sort method.
+            //Print the first and last students’ names.
+
+            string[] studentNames = { "Rashida", "Nathan", "Nathan", "Nick", "Dmitri", "David"};
+
+            Array.Sort(studentNames);
+
+            Console.WriteLine(studentNames[0]);
+
+            Console.WriteLine(studentNames[studentNames.Length - 1]);
+
+
+            //Ask 5 people for their favorite numbers and
+            //create an array of those numbers.
+            //Order the numbers using the sort method.
+            //Print the first and last numbers.
+
+            int[] favoriteNums = new int[5];
+            favoriteNums[0] = 3;
+            favoriteNums[1] = 247;
+            favoriteNums[2] = 7;
+            favoriteNums[3] = 16;
+            favoriteNums[4] = 5;
+
+            Array.Sort(favoriteNums);
+            Console.WriteLine(favoriteNums[0]);
+            Console.WriteLine(favoriteNums[favoriteNums.Length - 1]);
+
+
+
+
 
 
         }
