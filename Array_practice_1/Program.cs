@@ -130,23 +130,31 @@ namespace Array_practice_1
 
             // Making a copy of an array, print both
 
-            int[] someNums = { -4, 17, 230, 84, -84, 2983, 16, 20, 13, 6 };
+            //int[] someNums = { -4, 17, 230, 84, -84, 2983, 16, 20, 13, 6 };
 
-            int[] copyNums = new int[someNums.Length];
+            //int[] copyNums = new int[someNums.Length];
 
-            for (int index = 0; index < someNums.Length; index++)
-            {
-                copyNums[index] = someNums[index];
-            }
+            //for (int index = 0; index < someNums.Length; index++)
+            //{
+            //    copyNums[index] = someNums[index];
+            //}
+
+            //for (int index =0; index <someNums.Length; index++)
+            //{
+            //    Console.Write(someNums[index] + "---" + copyNums[index]);
+            //    Console.WriteLine();
+            //}
+
+            //Setting size of Array with user input
+            Console.WriteLine("Please enter size of an array");
+            int arraySize = int.Parse(Console.ReadLine());
+
+            int[] newArray = new int[arraySize];
+
+            Console.WriteLine("The array is of length " + newArray.Length);
+
+            //Console.WriteLine(Array.IndexOf(newArray, newArray.Length));
             
-            for (int index =0; index <someNums.Length; index++)
-            {
-                Console.Write(someNums[index] + "---" + copyNums[index]);
-                Console.WriteLine();
-            }
-
-
-
 
 
         }
