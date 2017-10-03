@@ -123,8 +123,29 @@ namespace Array_practice_1
 
             //This is a list of names. I'll print the index of the third one.
 
-            string[] namesList = { "Brad", "Cheria", "Ali", "Ryan" };
-            Console.WriteLine(Array.IndexOf(namesList, "Ali"));
+            //string[] namesList = { "Brad", "Cheria", "Ali", "Ryan" };
+            //Console.WriteLine(Array.IndexOf(namesList, "Ali"));
+
+
+
+            // Making a copy of an array, print both
+
+            int[] someNums = { -4, 17, 230, 84, -84, 2983, 16, 20, 13, 6 };
+
+            int[] copyNums = new int[someNums.Length];
+
+            for (int index = 0; index < someNums.Length; index++)
+            {
+                copyNums[index] = someNums[index];
+            }
+            
+            for (int index =0; index <someNums.Length; index++)
+            {
+                Console.Write(someNums[index] + "---" + copyNums[index]);
+                Console.WriteLine();
+            }
+
+
 
 
 
