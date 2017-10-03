@@ -167,6 +167,14 @@ namespace Array_practice_1
 
             Console.WriteLine(Array.LastIndexOf(birthMonths, "October"));
 
+            // Index of a string on an array element
+
+            //Console.WriteLine(birthMonths[1].IndexOf("u"));
+
+            int[] numbers = { 2, 5, 9, 4, 3, 4, 6, 5 };
+            Console.WriteLine(Array.LastIndexOf(numbers, 4));
+
+
 
             
 
