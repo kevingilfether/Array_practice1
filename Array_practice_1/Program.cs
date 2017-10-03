@@ -186,7 +186,6 @@ namespace Array_practice_1
             // Declare and initialize a string array of first names.
             // Choose a name to find and print the IndexOf.
             string[] firstNames = { "Kevin", "Sweet", "Patrick", "Murderous" };
-
             Console.WriteLine(Array.IndexOf(firstNames, "Murderous"));
             
 
@@ -212,11 +211,8 @@ namespace Array_practice_1
             //Print the first and last students’ names.
 
             string[] studentNames = { "Rashida", "Nathan", "Nathan", "Nick", "Dmitri", "David"};
-
             Array.Sort(studentNames);
-
             Console.WriteLine(studentNames[0]);
-
             Console.WriteLine(studentNames[studentNames.Length - 1]);
 
 
@@ -235,10 +231,6 @@ namespace Array_practice_1
             Array.Sort(favoriteNums);
             Console.WriteLine(favoriteNums[0]);
             Console.WriteLine(favoriteNums[favoriteNums.Length - 1]);
-
-
-
-
 
 
         }
